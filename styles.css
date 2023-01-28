@@ -102,6 +102,18 @@
   z-index: -1;
 }
 
+.main-section img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+@media (max-width: 768px) {
+  .main-section img {
+    display: none;
+  }
+}
+
 /*Footer*/
 
 .container-footer {
