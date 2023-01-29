@@ -168,6 +168,12 @@
   }
 }
 
+/* Services Section */
+
+.services {
+  background-color: rgba(194, 170, 170, 0.5);
+}
+
 /*Footer*/
 
 .container-footer {
