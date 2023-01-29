@@ -122,7 +122,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
 }
 
 .about-container {
@@ -150,6 +150,9 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    height: 100vh;
+  }
   .about-content {
     width: 80vw;
     height: 50vh;
