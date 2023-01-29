@@ -103,6 +103,7 @@
 }
 
 .main-section img {
+  color: white;
   position: absolute;
   top: 50px;
   left: 50px;
@@ -111,6 +112,56 @@
 @media (max-width: 768px) {
   .main-section img {
     display: none;
+  }
+}
+
+/* About Section*/
+
+.about {
+  background-image: url(images/mountain_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.about-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-content {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+
+.about-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    width: 80vw;
+    height: 50vh;
+    margin-bottom: 2.5rem;
+  }
+  .about-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
   }
 }
 
