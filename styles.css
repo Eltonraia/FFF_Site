@@ -108,8 +108,8 @@
 
 header h1 {
   text-align: center;
-  font-size: 3rem;
-  padding: 1rem 0;
+  font-size: 5rem;
+  padding: 2rem 0;
 }
 
 .container-serv1 {
@@ -123,6 +123,25 @@ header h1 {
 }
 
 .serv-1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serv-1-content h1 {
+  width: 60%;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.serv-1-content h2 {
+  font-size: 2.5rem;
+}
+
+.serv-1-content li {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 /*Footer*/
