@@ -29,17 +29,17 @@
   </head>
   <body>
     <!--NavBar-->
-    <div class="navbar">
-      <div class="nav-items">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="giving.html">Giving</a></li>
-        </ul>
+    <div class="container-video">
+      <div class="navbar">
+        <div class="nav-items">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="giving.html">Giving</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div>
       <video
         autoplay
         muted
@@ -49,11 +49,10 @@
       ></video>
     </div>
     <!--Navbar End-->
-    <section>
+    <!--Mato Section-->
+    <section class="mato-section">
       <div class="container-home">
-        <button>
-          <a href="#">Give Now</a>
-        </button>
+        <a class="give-btn" href="#">Give Now</a>
         <div class="home-content">
           <div class="mato">
             <h1>Believe</h1>
@@ -74,7 +73,87 @@
         </div>
       </div>
     </section>
+    <!--Mato Section End-->
     <!--Stay Connected-->
+    <section class="stay-section">
+      <div class="container-stay">
+        <div class="stay-content">
+          <h1>Stay Connected</h1>
+          <div class="stay-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i>FaceBook</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Stay Connected End-->
+    <!--Upcoming Events-->
+    <section class="bottom-section">
+      <h1>Upcoming Events</h1>
+      <div class="carousel" data-carousel>
+        <button
+          class="carousel-button prev fa-sharp fa-solid fa-arrow-left"
+          data-carousel-button="prev"
+        ></button>
+        <button
+          class="carousel-button next fa-sharp fa-solid fa-arrow-right"
+          data-carousel-button="next"
+        ></button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="images/Pastor Smiling.JPG" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/Pastor up close.JPG" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/Pastor1.JPG" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/Worship1.JPG" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/Worship2.JPG" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Upcoming Events End-->
+    <!--Scripture-->
+    <section class="scripture-section">
+      <div class="scripture-content">
+        <h1>
+          "Let him that is taught in the world communicate unto him that
+          teacheth in all good things. Be not deceived; God is not mocked: for
+          whatsoever a man soeth, that shall he also reap.""
+        </h1>
+        <p>Galatians 6:6-7</p>
+      </div>
+    </section>
+    <!--Scripture End-->
+    <!--Footer-->
+    <section class="footer-section">
+      <div class="footer-container">
+        <div class="footer-title">
+          <img src="images/logo_small.png" alt="logo_small" />
+          <h1>Faith Family Fellowship</h1>
+        </div>
+        <div class="footer-contact">
+          <p>281-331-3960</p>
+          <a href="http://welcome@faithfamily-alvin.com"
+            >welcome@faithfamily-alvin.com</a
+          >
+          <a href="http://faithfamilyfellowshipag@gmail.com"
+            >faithfamilyfellowshipag@gmail.com</a
+          >
+        </div>
+        <div class="footer-address">
+          <p>1031 W. Sealy St</p>
+          <p>Alvin, TX 77511</p>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>
