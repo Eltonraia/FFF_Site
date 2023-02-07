@@ -105,13 +105,14 @@
 /* Services Section */
 
 .services {
-  background-color: rgba(194, 170, 170, 0.5);
+  background-color: rgb(17, 11, 11);
 }
 
 header h1 {
   text-align: center;
   font-size: 5rem;
-  padding: 2rem 0;
+  margin: 50px 0;
+  color: white;
 }
 
 .container-serv1 {
@@ -129,6 +130,7 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .serv-1-content h1 {
@@ -152,6 +154,7 @@ header h1 {
 }
 
 .serv2-content {
+  color: white;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -175,6 +178,7 @@ header h1 {
 }
 
 .serv3-content {
+  color: white;
   display: flex;
   justify-content: center;
 }
