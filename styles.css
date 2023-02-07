@@ -71,16 +71,16 @@
   flex-direction: column;
   margin-bottom: 3rem;
   text-decoration: none;
-  color: rgb(169, 140, 140);
+  color: white;
   border: 1px solid black;
   padding: 0.5rem 1.2rem;
   border-radius: 15px;
-  background-color: rgba(17, 26, 31, 0.526);
+  background-color: rgb(7, 35, 111);
   font-size: 1.5rem;
 }
 
 .give-btn:hover {
-  background-color: rgb(17, 26, 31);
+  background-color: rgba(139, 165, 171, 0.8);
   color: white;
 }
 
@@ -151,7 +151,7 @@
   border: 1px solid black;
   padding: 1rem;
   border-radius: 70px;
-  background-color: rgba(17, 26, 31, 0.526);
+  background-color: rgb(57, 119, 199);
 }
 
 .stay-icons i {
@@ -218,7 +218,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -391,7 +391,7 @@ header h1 {
   top: 50%;
   left: 50%;
   width: 80%;
-  height: auto;
+  height: 75%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: rgb(0, 0, 0);
@@ -460,4 +460,10 @@ header h1 {
 .footer-address p {
   font-size: 1.2rem;
   color: white;
+}
+
+/* Giving */
+
+.giving {
+  background-color: black;
 }
