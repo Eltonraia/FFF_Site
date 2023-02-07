@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: Kalam, cursive;
 }
 /* NavBar*/
@@ -27,7 +28,7 @@
   color: white;
   padding: 0.5rem;
   display: block;
-  margin: 2rem 2.5rem;
+  margin: 1.5rem 2rem;
 }
 
 /* Navbar links on mouse-over */
@@ -35,35 +36,53 @@
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
-  .nav-items li a {
-    margin: 1rem 1rem;
-  }
-}
-
 /*Main Section*/
 
-.main-section video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.main-video {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
   z-index: -1;
 }
 
-.main-section img {
-  color: white;
+.container-home {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 100px;
-  left: 50px;
+  background-color: rgb(42, 75, 104);
+  top: 110%;
+  left: 0;
+  width: 100%;
+  height: 250px;
 }
 
-@media (max-width: 768px) {
-  .main-section video {
-    height: 125vh;
-  }
+.home-content {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.container-home button {
+  background-color: rgb(115, 136, 156);
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 850px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.mato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 /* About Section*/
@@ -130,8 +149,8 @@ header h1 {
 
 .serv-1-content h1 {
   width: 60%;
-  font-size: 3rem;
-  margin-bottom: 6rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 .serv-1-content h2 {
@@ -144,7 +163,7 @@ header h1 {
 }
 
 .container-serv2 {
-  margin: 250px 0;
+  margin: 100px 0;
   display: flex;
 }
 
@@ -163,13 +182,13 @@ header h1 {
 }
 
 .serv2-content h2 {
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
+  margin-bottom: 1.1rem;
+  font-size: 2rem;
 }
 
 .serv2-content li {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 .serv3-content {
@@ -181,39 +200,7 @@ header h1 {
 .serv3-content p {
   width: 70%;
   height: 100%;
-  font-size: 5rem;
-  line-height: 5.5rem;
-}
-
-/*Footer*/
-
-.container-footer {
-  position: absolute;
-  width: auto;
-  top: 65%;
-  left: 1%;
-  color: white;
-  padding: 50px;
-}
-
-.footer-content p {
-  line-height: 1.1rem;
-}
-
-#email-link a {
-  text-decoration: none;
-  color: white;
-  font-size: rem;
-}
-
-.socials li {
-  display: inline-block;
-  list-style-type: none;
-  color: white;
-  font-size: 1.3rem;
-  padding-right: 1rem;
-}
-
-.fa-brands {
-  color: white;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 3rem;
 }
