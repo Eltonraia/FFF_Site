@@ -69,11 +69,11 @@
 /* About Section*/
 
 .about {
-  background-image: url(images/Worship2.JPG);
+  background-image: url(images/Pastor\ Smiling.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
 }
 
 .about-container {
@@ -161,7 +161,7 @@ header h1 {
 
 .container-serv2 img {
   width: 600px;
-  height: 600px;
+  height: 500px;
 }
 
 .serv2-content h2 {
