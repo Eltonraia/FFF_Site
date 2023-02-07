@@ -69,7 +69,7 @@
 /* About Section*/
 
 .about {
-  background-image: url(images/Pastor\ Smiling.JPG);
+  background-image: url(images/Pastor\ Dark.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,27 +78,22 @@
 
 .about-container {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .about-content {
-  width: auto;
-  height: 500px;
+  width: 70%;
+  height: auto;
   text-align: center;
   color: white;
 }
 
-.about-content h1 {
-  font-size: 4rem;
-  margin: 2rem 0;
-  font-weight: bold;
-}
-
 .about-content p {
-  font-size: 5rem;
-  line-height: 6rem;
+  color: rgb(27, 52, 73);
+  font-size: 3.5rem;
+  line-height: 4rem;
   font-weight: bold;
 }
 
@@ -186,7 +181,6 @@ header h1 {
 .serv3-content p {
   width: 70%;
   height: 100%;
-  margin: 150px 0;
   font-size: 5rem;
   line-height: 5.5rem;
 }
