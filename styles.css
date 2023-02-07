@@ -69,11 +69,11 @@
 /* About Section*/
 
 .about {
-  background-image: url(images/mountain_2.jpg);
+  background-image: url(images/Worship2.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50vh;
+  height: 120vh;
 }
 
 .about-container {
@@ -84,20 +84,22 @@
 }
 
 .about-content {
-  width: 800px;
-  height: 400px;
+  width: auto;
+  height: 500px;
   text-align: center;
   color: white;
 }
 
 .about-content h1 {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+  margin: 2rem 0;
+  font-weight: bold;
 }
 
 .about-content p {
-  font-size: 2.5rem;
-  line-height: 2.9rem;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: bold;
 }
 
 /* Services Section */
@@ -116,10 +118,10 @@ header h1 {
   display: flex;
 }
 
-.serv-1-image {
-  margin-left: 20px;
-  width: 100%;
-  height: 100%;
+.container-serv1 img {
+  margin-left: 100px;
+  width: 600px;
+  height: 650px;
 }
 
 .serv-1-content {
@@ -136,12 +138,53 @@ header h1 {
 }
 
 .serv-1-content h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .serv-1-content li {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.container-serv2 {
+  margin: 250px 0;
+  display: flex;
+}
+
+.serv2-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-serv2 img {
+  width: 600px;
+  height: 600px;
+}
+
+.serv2-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.serv2-content li {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.serv3-content {
+  display: flex;
+  justify-content: center;
+}
+
+.serv3-content p {
+  width: 70%;
+  height: 100%;
+  margin: 150px 0;
+  font-size: 5rem;
+  line-height: 5.5rem;
 }
 
 /*Footer*/
